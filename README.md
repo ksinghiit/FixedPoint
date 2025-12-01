@@ -7,26 +7,26 @@ This repository provides clean and easy-to-use R functions for finding the roots
 
 These methods are widely used in numerical analysis, optimization, engineering, and scientific computing to solve equations of the form:
 
-\[
+$$
 f(x) = 0.
-\]
+$$
 
 ---
 
-## 🌟 Overview
+## Overview
 
 ### **Fixed Point Iteration**
 The fixed point method rewrites a root-finding problem as:
 
-\[
+$$
 x = g(x),
-\]
+$$
 
 and iteratively updates the solution using:
 
-\[
+$$
 x_{n+1} = g(x_n).
-\]
+$$
 
 If the function \( g(x) \) satisfies certain conditions (e.g., Lipschitz continuity with \( |g'(x)| < 1 \)), the iteration converges to the true root.
 
@@ -35,15 +35,15 @@ If the function \( g(x) \) satisfies certain conditions (e.g., Lipschitz continu
 ### **Bisection Method**
 The bisection method is a simple and robust way to find a root when the function \( f(x) \) changes sign over an interval \([a, b]\):
 
-\[
+$$
 f(a) \cdot f(b) < 0.
-\]
+$$
 
 By repeatedly halving the interval, the method guarantees convergence to a root.
 
 ---
 
-## 📦 Included Functions
+## Included Functions
 
 ### `fixed_point_est()`
 Performs fixed-point iteration with:
@@ -59,7 +59,7 @@ Implements the bisection method with:
 
 ---
 
-## 🔧 Example Usage
+## Example Usage
 
 ### **Fixed Point Iteration**
 ```r
