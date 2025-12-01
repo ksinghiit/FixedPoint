@@ -38,7 +38,3 @@ bisection_est <- function(fun, a, b, tol = 1e-6, max_iter = 10000, ...) {
   return((a + b) / 2)        # approximate root
 }
 
-
-bisection_est(function(x) cos(x)-x, a=0, b=1)
-bisection_est(function(x) sqrt(3+x)-x, a=1, b=3)
-
