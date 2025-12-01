@@ -28,9 +28,7 @@ bisection_est(function(x) sqrt(3+x)-x, a=0, b=3)
 \references{
 %% ~put references to the literature/web site here ~
 }
-\author{
-Kundan Singh
-}
+
 \note{
 %%  ~~further notes~~
 }
