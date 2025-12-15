@@ -29,7 +29,8 @@ Use this method when the equation can be written as
 fixed_point_est(function(x) cos(x), init_val = 1)
 ```
 
-**Typical Output**
+**Output**
+```
 0.7390851
 
 ```
@@ -44,7 +45,7 @@ Use this method when ( f(x) ) changes sign on an interval ([a, b]).
 bisection_est(function(x) x^3 - x - 2, a = 1, b = 2)
 ```
 
-**Typical Output**
+**Output**
 
 ```
 1.52138
