@@ -30,16 +30,8 @@ fixed_point_est(function(x) cos(x), init_val = 1)
 ```
 
 **Typical Output**
+0.7390851
 
-```
-$root
-[1] 0.7390851
-
-$iterations
-[1] 28
-
-$converged
-[1] TRUE
 ```
 
 ---
@@ -55,14 +47,7 @@ bisection_est(function(x) x^3 - x - 2, a = 1, b = 2)
 **Typical Output**
 
 ```
-$root
-[1] 1.52138
-
-$iterations
-[1] 25
-
-$converged
-[1] TRUE
+1.52138
 ```
 
 ---
